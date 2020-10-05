@@ -50,3 +50,25 @@
 .lightText {
   color: #999;
 }
+
+.text-center {
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .tablet\:text-center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .laptop\:text-center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .desktop\:text-center {
+    text-align: center;
+  }
+}
