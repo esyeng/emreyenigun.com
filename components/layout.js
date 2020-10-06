@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import { Navbar, PageBody } from "./navbar";
 
 const name = "Emre Yenigun";
 export const siteTitle = "emreyenigun.com";
@@ -20,16 +21,27 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+      <Navbar>
+        <Link href="/">
+          <a className="headLink">Home</a>
+        </Link>
+        <Link href="/about">
+          <a className="headLink">About Me</a>
+        </Link>
+        <Link href="/portfolio">
+          <a className="headLink">Portfolio</a>
+        </Link>
+        <Link href="/resume">
+          <a className="headLink">Resumé</a>
+        </Link>
+        <Link href="/contact">
+          <a className="headLink">Contact</a>
+        </Link>
+      </Navbar>
+
       <header className={styles.header}>
         {home ? (
-          <>
-            <img
-              src="/images/profile.jpg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
+          <>__________________________</>
         ) : (
           <>
             <Link href="/">
@@ -41,7 +53,7 @@ export default function Layout({ children, home }) {
                 />
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
+            <h2 className={utilStyles.headingXl}>
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
@@ -57,6 +69,9 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <div className={utilStyles.footCon}>
+        <footer className={utilStyles.foot}>@ 2020 - Emre Yenigun </footer>
+      </div>
     </div>
   );
 }

@@ -9,14 +9,21 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+
+      <section className={utilStyles.section}>
         <p>
-          Hi there, my name is Emre Scattergood Yenigun, and I'm an NJ based
-          full-stack software engineer specializing in Node.js. Glad you made
-          it.
+          <h2 className={utilStyles.headingMd}>Hi there</h2>
+          <h3 className={utilStyles.one}>
+            My name is Emre Scattergood Yenigun
+          </h3>
+          <h3 className={utilStyles.two}>
+            I'm an NJ based full-stack software engineer specializing in React
+            and Node.js.
+          </h3>
+          <h3 className={utilStyles.three}>Glad you made it.</h3>
         </p>
-        <Link href="/posts/first-post">
-          <a>about me</a>
+        <Link href="/about" className={utilStyles.link}>
+          <a className={utilStyles.link}>About me</a>
         </Link>
       </section>
     </Layout>
