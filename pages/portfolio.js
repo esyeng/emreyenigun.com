@@ -22,20 +22,6 @@ export default function Portfolio() {
             <a>Scoobyasso</a>
           </Link>
         </p>
-        <h2 className={utilStyles.headingLg}>* Bloc Party *</h2>
-        <p className={utilStyles.headingMd}>
-          {" "}
-          Thrown together in a weekend of non-stop learning, coding, and
-          testing, this hackathon project began in C# and Unity before migrating
-          to Phaser as a web plugin. It's a spinoff of Super Smash Brothers
-          mixed with the pixelated shooting mechanics of Space Invaders, played
-          with up to four people in the browser using Socket.io. Currently in
-          alpha stages and single player, Emre continues to flesh out this game
-          with an eventual release planned. Release TBD. GitHub:
-          <Link href="https://github.com/esyeng/bloc-party">
-            <a> Bloc-Party</a>
-          </Link>
-        </p>
         <h2 className={utilStyles.headingLg}>* On My Way *</h2>
         <p className={utilStyles.headingMd}>
           Capping off a tremendous few months of code, Emre's capstone project
