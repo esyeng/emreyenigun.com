@@ -31,9 +31,6 @@ export default function Layout({ children, home }) {
         <Link href="/portfolio">
           <a className="headLink">Portfolio</a>
         </Link>
-        <Link href="/resume">
-          <a className="headLink">Resumé</a>
-        </Link>
         <Link href="/contact">
           <a className="headLink">Contact</a>
         </Link>
