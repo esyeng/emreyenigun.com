@@ -26,7 +26,7 @@ export default function Layout({ children, home }) {
           <a className="headLink">Home</a>
         </Link>
         <Link href="/about">
-          <a className="headLink">About Me</a>
+          <a className="headLink">About</a>
         </Link>
         <Link href="/portfolio">
           <a className="headLink">Portfolio</a>
