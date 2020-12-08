@@ -10,6 +10,18 @@ export default function Portfolio() {
         <title>portfolio</title>
       </Head>
       <section className={utilStyles.section}>
+        <h2 className={utilStyles.headingLg}>* StackTrack *</h2>
+        <p className={utilStyles.headingMd}>
+          {" "}
+          Current occupation: building a self-documenting issue tracking service
+          built entirely solo. Robust schema and data serving on the backend,
+          currently catered to solo users to create issue tickets. Coming soon:
+          Organizations, Teams, Project Management, Kanban board
+          <Link href="https://stacktrack-esy.herokuapp.com/">
+            <a>StackTrack</a>
+          </Link>
+        </p>
+
         <h2 className={utilStyles.headingLg}>* Scoobyasso *</h2>
         <p className={utilStyles.headingMd}>
           {" "}
@@ -27,11 +39,12 @@ export default function Portfolio() {
           Capping off a tremendous few months of code, Emre's capstone project
           was built in React Native for iOS and Android, utilizing the Google
           Cloud Platform and Socket.io to allow for multi-user real-time
-          location sharing. The impetus for this app was to serve as a companion
-          app to people 'contact-tracing' their loved ones in the concern of
-          safe-transportation. App Store + Play Store release TBD. Presentation:{" "}
+          location sharing. Presentation:{" "}
           <Link href="https://www.youtube.com/watch?v=g39o2qTqMTc">
             <a>Capstone: On My Way</a>
+          </Link>
+          <Link href="https://github.com/esyeng/onmyway">
+            <a>Repo</a>
           </Link>
         </p>
       </section>
