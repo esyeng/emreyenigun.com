@@ -127,7 +127,42 @@ export default function Contact() {
             others, I lost my only source of income, and was forced to stay
             inside. Guess it was time for bootcamp.
           </p>
-          <p className={utilStyles.blogText}>And so it was ...</p>
+          <p className={utilStyles.blogText}>
+            With my goal in sight I began working away, contributing 100% of my
+            time and resources to the singular purpose of learning fullstack web
+            development. First was a bootcamp prep course, in which I learned to
+            write simple functions and tackle basic coding challenges that would
+            get me through the application process to Fullstack Academy.
+          </p>
+          <p className={utilStyles.blogText}>
+            At Fullstack proper I was committed and driven to learning each new
+            concept, day in and day out asking questions, seeking feedback, and
+            participating in the overall community. It's amazing that just a few
+            months ago, I was learning simple dom manipulation and what TCP is
+            and how to spin up a server overnight. I kept a journal through this
+            experience and commented often at how difficult and seemingly
+            insurmountable each new concept was to grasp, only to look back a
+            couple weeks after the fact and laugh at my prior ignorance,
+            thinking "just wait until you see what's happening this week!"
+          </p>
+          <p className={utilStyles.blogText}>
+            There are many, many people who've come through these programs at
+            this point, so while I risk sounding repetitive about how much of an
+            accomplishment it feels to go through a software bootcamp, I truly
+            felt challenged and rewarded for applying myself to this. As it
+            stands now, with the trials of the pandemic raging on and the
+            stressors of an uncertain job market weighing down, I can't help but
+            express how crucial my professional progress has been this year.
+            It's December 15, 2020, what a difference a year has made.
+          </p>
+          <p className={utilStyles.blogText}>
+            I created this barebones website as a portal into my progress, and
+            now have added a blog that I hope will serve as a reference for
+            those curious what I'm up to, as well as a place to write about
+            coding and technology in general; in a technical sense, this will be
+            my own version of the medium not too far from now. So stay tuned,
+            there's much more to come on emreyenigun.com.
+          </p>
         </div>
       </section>
     </Layout>
