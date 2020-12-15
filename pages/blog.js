@@ -26,7 +26,7 @@ export default function Contact() {
               marginLeft: "auto",
               marginRight: "auto",
             }}
-            src="https://previews.dropbox.com/p/thumb/ABBz3uQjquyD0mpiH-5vyp2oRufwyZjRa-VP4W7Kiy_EMthXDD5hxgYdzYZV8lsQHuUDCQ2fk7CAUhjl_C4a5N29BycZ068TAl7lDHjl8j7fuyIfmiUwubcg94qHx0tZplpgfKTFh74PT3zkNi1XyynycTqvgZy8S0xkvTULVg3fQvxWBjFS0f1r7dciHS2tKH9X6Ww93UvQfNUn82NzIyYbCOSGHrLanJpCElhxfKmEg3BsEvhWxfOTokX0PJr9J5kXjoC4ox9HrfpS0SOZklkHbXghRTdevY36oxPxDjH5lAi1EAcowmW9mLe5c0-ABAWG9GMirIyQrNxWnsxFJTxrRl9-hzFhQkg0l7E--oOcoQ/p.jpeg?fv_content=true&size_mode=5"
+            src="https://www.dropbox.com/s/2t7tspd9m4ezqg8/comppic.jpg?raw=1"
           ></img>
 
           <p className={utilStyles.headingBmd}>December 15, 2020</p>
@@ -103,7 +103,7 @@ export default function Contact() {
           </p>
           <img
             className={utilStyles.blogImg}
-            src="https://previews.dropbox.com/p/thumb/ABAqwXKvKNwIZdUYVCdcJwaDuu89Igh2JwR2lZTw1aHuin9sLv6nZ0jP2SxCrOfs1SqIoXgosO8ph3a8MJxfSPznYLcya1i_16MkMEYw4eZuDLmoz8_VYHUT2b0WLt_42uvH8n0dZ3VmimI2Eu28lwJ3CIIgHBy43WOGosTKv8NYfHJ4SvZemimAezreD7OQeO5DzaSpEMsCHiVesB-pC0H_f8b6T885cb0EAAWDB85NyWmegHoq_ukqad0Y361lzQJMs1LN7iztJfHyI_aiwdzASeQIe3J8-yTj5H-g_xgHwaVU6Jq0q179WdJqIZtliOC7eczaVrxlqA_Zl-X-AdeF/p.jpeg?fv_content=true&size_mode=5"
+            src="https://www.dropbox.com/s/3cm0tx3ijb5xrxe/grashop.jpg?raw=1"
           ></img>
           <p className={utilStyles.caption}>My first little triumph</p>
           <p className={utilStyles.blogText}>
