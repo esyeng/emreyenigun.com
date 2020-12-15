@@ -34,6 +34,9 @@ export default function Layout({ children, home }) {
         <Link href="/contact">
           <a className="headLink">Contact</a>
         </Link>
+        <Link href="/blog">
+          <a className="headlink">Blog</a>
+        </Link>
       </Navbar>
 
       <header className={styles.header}>
