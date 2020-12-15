@@ -130,6 +130,28 @@
   text-align: center;
 }
 
+.sectionXL {
+  border: oldlace;
+  padding: 200px;
+  margin: 1em;
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, 0.5);
+  outline-offset: 200px;
+  text-align: center;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  justify-content: center;
+  display: flex;
+}
+
+.blogPost {
+  border: oldlace;
+  text-align: left;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .link {
   text-align: center;
   animation: fadeInDown;
