@@ -17,8 +17,7 @@ export default function Home() {
             My name is Emre Scattergood Yenigun
           </h3>
           <h3 className={utilStyles.two}>
-            I'm an NJ based full-stack software engineer specializing in React
-            and Node.js.
+            I'm an NJ based backend web developer
           </h3>
           <h3 className={utilStyles.three}>Glad you made it.</h3>
         </p>

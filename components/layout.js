@@ -47,7 +47,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <img
-                  src="/images/embiopicsmol.jpg"
+                  src="../public/images/embiopicsmol.jpeg"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
